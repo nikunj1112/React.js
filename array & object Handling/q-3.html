@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // 3. Find the sum of all numbers in an array Input: [10, 20, 30, 40].
+
+        let a = [10, 20, 30, 40, 50];
+        const sum = a.reduce((total, num) => {
+            total = total + num;
+            return total;
+        });
+        console.log(sum);
+
+        // ✅ Expected Output: 150
+    </script>
+
+</body>
+
+</html>

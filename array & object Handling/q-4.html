@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // 4. Find the maximum and minimum number in an array Input: [8, 3, 12, 5, 1].
+
+        let nums = [1, 2, 3, 4, 5];
+
+        nums.sort((a, b) => a - b);
+        console.log(`Minimum number: ${nums[0]}`);
+
+        nums.sort((a, b) => b - a);
+        console.log(`Maximum number: ${nums[0]}`);
+
+
+        // ✅ Expected Output: Maximum number: 5, Minimum number: 1
+    </script>
+
+</body>
+
+</html>
